@@ -1,3 +1,4 @@
+//Whack-a-mole Game
 #include <stdio.h>
 #include <MD_Parola.h>
 #include <MD_MAX72xx.h>

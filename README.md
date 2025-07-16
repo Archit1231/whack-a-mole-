@@ -107,6 +107,9 @@ Arduino, and for programming a reaction-time game using simple C code.
 Further simplification and adaptation of the logic were based on the project documented by 101 Computing, titled Arduino Whack-a-Mole Game [2]. This source explained the implementation of the Whack-a-Mole concept using minimal components,
 making it particularly helpful for adapting the project to the Arduino Nano’s pin constraints and size.
 
+![WhatsApp Image 2025-07-16 at 15 15 14_69a06d7c](https://github.com/user-attachments/assets/d80abf44-4601-4ab0-aa6d-3371eb6b02e2)
+
+
 
 
 

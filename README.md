@@ -96,7 +96,7 @@ was delivered through a buzzer and an optional LCD screen displaying the playerâ
 The response time window of 1.5 seconds per mole provided a suitable challenge, encouraging quick reactions while maintaining playability. Testing under continuous operation
 revealed consistent, reliable performance without hardware malfunctions or software errors.
 
-## References
+## ðŸ”Œ References
 
 The development of the Arduino Nano-based Whack-a-Mole game was greatly supported
 by several online resources, tutorials, and open-source community contributions. A key

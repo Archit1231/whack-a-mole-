@@ -44,6 +44,48 @@ The Arduino IDE is used to program the microcontroller. The code includes:
 
 5) Audio feedback through buzzer.
 
+## Testing and Evaluation
+
+The testing and evaluation phase is essential to ensure the reliability and functionality
+of the Whack-a-Mole Game using Arduino Nano. This phase involved checking hardware
+connections, verifying software logic, and conducting gameplay tests under different scenarios. The goal was to ensure that the system responded correctly to inputs, scored
+accurately, and provided consistent feedback to the user.
+
+
+The testing process was carried out in the following stages:
+1. Power and Connectivity Check: The Arduino Nano was powered via USB,
+and all connections on the breadboard were visually inspected for correctness and
+continuity.
+
+2. LED Functionality Test: Each LED was tested using a simple blink sketch to
+confirm proper wiring and resistor values.
+
+3. Button Response Test: The digital input pins were monitored using serial output
+to verify that each button press was correctly detected.
+
+4. LCD Output Test : The I2C LCD was tested to ensure correct address
+configuration and real-time display of score and status messages.
+
+5. Full Game Simulation: The complete game logic was uploaded, and multiple
+gameplay sessions were conducted to verify randomness, responsiveness, and scoring
+logic.
+
+## Code Structure
+
+The code is divided into the following key sections:
+
+• Initialization: Pin modes and variables are set.
+
+• Random LED Activation: An LED is turned on randomly using the random()
+function.
+
+• Input Monitoring: Button states are continuously checked using digitalRead().
+
+• Scoring Logic: When the correct button is pressed while the corresponding LED
+is on, the score is incremented.
+
+• Feedback: A tone is played on the buzzer, and score is optionally updated on the
+LCD.
 
 
 

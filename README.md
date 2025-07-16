@@ -1,6 +1,6 @@
 # whack-a-mole
 
-## Introduction
+## ⚡ Introduction
 
 The Whack-a-Mole game is a popular arcade-style game that has been entertaining players for decades. The premise is simple yet fun: moles (or in modern versions, animated
 creatures) pop up randomly from holes, and the player needs to hit them with a mallet
@@ -8,7 +8,7 @@ or a hammer to score points. When translated into the world of electronics and D
 projects, this classic game can be recreated using a microcontroller such as the Arduino
 Nano.
 
-##  Component Selection
+## 🔍 Component Selection
 
  - **Arduino Nano** - Acts as the brain of the system.
  
@@ -25,7 +25,7 @@ Nano.
  - **Power Supply** - The Arduino Nano can be powered via USB from a computer or using an externa l5V adapter.
  
 
- ## working
+ ## ⚙️ Working
 
  The software running on the Arduino Nano handles random mole activation, player input
 detection, scoring logic, and optional output through a buzzer or display. The modular
@@ -44,7 +44,7 @@ The Arduino IDE is used to program the microcontroller. The code includes:
 
 5) Audio feedback through buzzer.
 
-## Testing and Evaluation
+## 🚀 Testing and Evaluation
 
 The testing and evaluation phase is essential to ensure the reliability and functionality
 of the Whack-a-Mole Game using Arduino Nano. This phase involved checking hardware
@@ -70,7 +70,7 @@ configuration and real-time display of score and status messages.
 gameplay sessions were conducted to verify randomness, responsiveness, and scoring
 logic.
 
-## Code Structure
+## 🤖 Code Structure
 
 The code is divided into the following key sections:
 
@@ -86,7 +86,7 @@ is on, the score is incremented.
 
 **• Feedback**: A tone is played on the buzzer, and score is optionally updated on the LCD.
 
-## Result Summary
+## ⚡Result Summary
 
 The Whack-a-Mole game built using the Arduino Nano microcontroller was thoroughly
 tested to evaluate its functional performance and user experience. The system successfully

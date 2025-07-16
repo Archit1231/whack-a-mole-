@@ -111,6 +111,11 @@ making it particularly helpful for adapting the project to the Arduino Nano’s 
 
 ![WhatsApp Image 2025-07-16 at 15 18 18_b516f732](https://github.com/user-attachments/assets/c10d4dff-6e4d-4c14-8d68-923c133ca3b6)
 
+## Report
+
+
+https://drive.google.com/drive/folders/1MlFgEEvUW2YMt7TS_yco4qbVcKa7l5Uz?usp=sharing
+
 
 
 

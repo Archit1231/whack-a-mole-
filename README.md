@@ -34,8 +34,7 @@ and uploading the game code efficiently.
 
 The Arduino IDE is used to program the microcontroller. The code includes:
 
-
-1)Initialization of pins.
+1) Initialization of pins.
 
 2) Game loop controlling mole activation and timing.
 

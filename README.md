@@ -74,18 +74,39 @@ logic.
 
 The code is divided into the following key sections:
 
-• Initialization: Pin modes and variables are set.
+**• Initialization**: Pin modes and variables are set.
 
-• Random LED Activation: An LED is turned on randomly using the random()
+**• Random LED Activation**: An LED is turned on randomly using the random()
 function.
 
-• Input Monitoring: Button states are continuously checked using digitalRead().
+**• Input Monitoring**: Button states are continuously checked using digitalRead().
 
-• Scoring Logic: When the correct button is pressed while the corresponding LED
+**• Scoring Logic**: When the correct button is pressed while the corresponding LED
 is on, the score is incremented.
 
-• Feedback: A tone is played on the buzzer, and score is optionally updated on the
-LCD.
+**• Feedback**: A tone is played on the buzzer, and score is optionally updated on the LCD.
+
+## Result Summary
+
+The Whack-a-Mole game built using the Arduino Nano microcontroller was thoroughly
+tested to evaluate its functional performance and user experience. The system successfully
+demonstrated the core game mechanics by randomly lighting up LEDs to represent moles
+and accurately detecting button presses corresponding to these LEDs. Real-time feedback
+was delivered through a buzzer and an optional LCD screen displaying the player’s score.
+The response time window of 1.5 seconds per mole provided a suitable challenge, encouraging quick reactions while maintaining playability. Testing under continuous operation
+revealed consistent, reliable performance without hardware malfunctions or software errors.
+
+## References
+
+The development of the Arduino Nano-based Whack-a-Mole game was greatly supported
+by several online resources, tutorials, and open-source community contributions. A key
+reference that provided the foundation for the overall game logic and hardware setup was
+the Instructables tutorial titled Simon/Whack-a-Mole Game Using Arduino [1]. This
+tutorial offered a step-by-step guide for interfacing LEDs and push buttons with an
+Arduino, and for programming a reaction-time game using simple C code.
+Further simplification and adaptation of the logic were based on the project documented by 101 Computing, titled Arduino Whack-a-Mole Game [2]. This source explained the implementation of the Whack-a-Mole concept using minimal components,
+making it particularly helpful for adapting the project to the Arduino Nano’s pin constraints and size.
+
 
 
 

@@ -25,6 +25,19 @@ Nano.
  - **Power Supply** - The Arduino Nano can be powered via USB from a computer or using an externa l5V adapter.
  
 
- ## 
+ ## working
+
+ The software running on the Arduino Nano handles random mole activation, player input
+detection, scoring logic, and optional output through a buzzer or display. The modular
+and structured code allows easy enhancements such as difficulty adjustment and timebased challenges. The Arduino IDE provides a robust platform for writing, compiling,
+and uploading the game code efficiently.
+The Arduino IDE is used to program the microcontroller. The code includes:
+1)Initialization of pins.
+2) Game loop controlling mole activation and timing.
+3) Random selection of mole to light.
+4) Detection of button presses and scoring.
+5) Audio feedback through buzzer.
+
+
 
 
